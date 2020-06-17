@@ -7,8 +7,9 @@ notes on  Web Development and  CS fundamentals
 - for javascript, use **typeof** function to avoid type cast error
 - understand the three declaration keywords: var, let, const, for memory optimization and better performance, use let and const as much as possible, for the latter two are block-scope and local
 - double equals (==) are loose equals, i.e 3 == '3' => true; While triple equals ( === ) returns true if both operands are of the same type and value
-- For falsy value comparison, try it in console or refer to https://codeburst.io/javascript-showdown-vs-7be792be15b5
+- For falsy value comparison, try it in console or refer to [link](https://codeburst.io/javascript-showdown-vs-7be792be15b5)
 - for best practice and readability, use bracket with conditions and loops
+- A unary operation is an operation with only one operand: delete obj OR typeof obj OR void; 
 
 ```javascript
 if (condition_1) {
@@ -36,5 +37,8 @@ for (let i in arr) {
    console.log(i); // logs "0", "1", "2", "foo"
 }
 ```
-
+The void operator evaluate an expression without return a value
+```html
+<a href="javascript:void(document.form.submit())">Click here to submit</a>
+```
 
