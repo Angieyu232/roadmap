@@ -1,0 +1,42 @@
+# Iterator
+
+### for ... of
+Say you have a array object, and you want to use the **for... of ** syntax
+
+```javascript
+var userlist = {
+  username: [
+    'James X',
+    'Bella Teal',
+    'Theo DX',
+    'Malcom XXX',
+    'Angie Yu',
+    'Diana Young'
+  ],
+  geolocation: [
+    'North Korea',
+    'Japan',
+    'Thailand',
+    'Vatican',
+    'Vietnam'
+    'United States',
+    'Hong Kong'
+  ]
+  language: [
+    'English',
+    'Mandarin',
+    'Spainish',
+    'Italian'
+  ]
+};
+
+```
+## Exercise
+using the structure of the userlist object or something similar
+
+1. loop through username object using **for ... of**
+2. randomly select one user name, one geolocation and one language then print
+
+
+## The iterable protocol
+[Symbol.iterator]
