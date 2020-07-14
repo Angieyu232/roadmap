@@ -93,3 +93,27 @@ overflow: scroll;
 ```
 
 Reference: https://developer.mozilla.org/en-US/docs/Web/CSS/
+
+
+## Notes on CSS Box Model
+
+- the width and height of an element include the content and padding, not margin
+- inline element can not adjust height and width
+
+**What these means is that:**
+1. for in-line element with fixed height and width, adding a padding value, let's say 5px, would shrink the content size;
+2. When you want content with fixed or assigned size e.g. 10%, do not mess with padding and adjust the margin instead
+
+
+**Sound's like an inhumane design right?** Box-sizing comes to rescue
+
+Here is a link to learn about box-sizing property: https://learnlayout.com/box-sizing.html
+```css
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+```
+Basically, with box-sizing property on an element, the padding and border of that element no longer increase its width.
+
