@@ -117,3 +117,9 @@ Here is a link to learn about box-sizing property: https://learnlayout.com/box-s
 ```
 Basically, with box-sizing property on an element, the padding and border of that element no longer increase its width.
 
+
+## Media Queries
+Although it's an increasing common practice to use SCSS and other css preprocessors tools to manipulate the Media Query, it's a good idea to start from the good old days of specified media breakpoint using css media queries to have a basic understanding how the underlying things work
+
+Reference Link: https://learnlayout.com/media-queries.html
+
